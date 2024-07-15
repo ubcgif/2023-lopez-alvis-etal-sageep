@@ -1,35 +1,43 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2023-alvis-etal-sageep
+  title: A convolutional neural network for the classification of UXO in  marine settings
+  description: Talk presented SERDP project MR22-3487
   authors:
-    # - name: AUTHOR 1
+    - name: Jorge Lopez-Alvis
     #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-    # - name: Douglas W. Oldenburg
-    #   affiliation: ubc
-    #   email: doug@eos.ubc.ca
-    #   orcid: 0000-0002-4327-2124
+      corresponding: true
+      orcid: 0000-0001-8626-117X
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+    - name: Stephen Billings
+      affiliation: Black Tusk Geophysics Inc
+      email:  stephen.billings@skyresearch.com
+      # orcid: ORCID
+    - name: Lin-Ping Song
+      affiliation: Black Tusk Geophysics Inc
+      email: lpsong@eoas.ubc.ca
+      # orcid: ORCID
   # banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: SAGEEP
+    url: https://www.eegs.org/proceedings-sageep-2023
   # license: CC-BY-4.0
   # open_access: true
   # doi: DOI
-  # date: DATE OF PRESENTATION
+  date: April 2, 2023
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
@@ -44,9 +52,9 @@ project:
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
+    - title: slides
+      url: abstract/presentation/SAGEEP2023_Jorge.pdf
+      static: true
     # - title: slides
     #   url: presentation/SLIDES-NAME.pdf
     #   static: true
