@@ -53,7 +53,7 @@ site:
   template: article-theme
   actions:
     - title: slides
-      url: abstract/presentation/SAGEEP2023_Jorge.pdf
+      url: presentation/SAGEEP2023_Jorge.pdf
       static: true
     # - title: slides
     #   url: presentation/SLIDES-NAME.pdf
