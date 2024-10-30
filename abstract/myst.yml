@@ -1,6 +1,6 @@
 version: 1
 project:
-  id: ubcgif-2023-alvis-etal-sageep
+  id: ubcgif-2023-lopez-alvis-etal-sageep
   title: A convolutional neural network for the classification of UXO in  marine settings
   description: Talk presented SERDP project MR22-3487
   authors:
