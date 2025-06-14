@@ -28,7 +28,7 @@ project:
       affiliation: Black Tusk Geophysics Inc
       email: lpsong@eoas.ubc.ca
       # orcid: ORCID
-  # banner: banner.png
+  banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
